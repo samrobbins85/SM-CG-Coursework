@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Living Room</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="800" height="800">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <div style="position: absolute; top:0; right:10em">
+  <p>Q/E-Up/Down</p>
+    <p>W/S - Forward/Back</p>
+    <p>A/D - Left/Right</p>
+    <p>Left arrow/Right arrow - Rotate around y axis</p>
+    <p>Up arrow/right arrow - Rotate around x axis</p>
+    </div>
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <script src="./lib/cuon-utils.js"></script>
+    <script src="./lib/cuon-matrix.js"></script>
+    <script src="./living_room.js"></script>
+  </body>
+</html>
